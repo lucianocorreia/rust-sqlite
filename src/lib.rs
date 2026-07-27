@@ -1,6 +1,7 @@
 pub mod command;
 pub mod database;
 pub mod executor;
+pub mod parser;
 pub mod table;
 pub mod value;
 
