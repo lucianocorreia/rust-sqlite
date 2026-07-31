@@ -12,7 +12,7 @@ fn sql_flow_regression() {
     assert_eq!(
         execute(
             &mut database,
-            parse("CREATE TABLE users (id INT, name TEXT)").unwrap()
+            parse("CREATE TABLE users (id INT, name TEXT);").unwrap()
         )
         .unwrap(),
         ExecutionResult::TableCreated

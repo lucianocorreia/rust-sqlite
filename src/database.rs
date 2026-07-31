@@ -35,6 +35,10 @@ impl Database {
     pub fn table_mut(&mut self, name: &str) -> Option<&mut Table> {
         self.tables.get_mut(name)
     }
+
+    pub fn tables(&self) -> impl Iterator<Item = &Table> {
+        self.tables.values()
+    }
 }
 
 #[cfg(test)]

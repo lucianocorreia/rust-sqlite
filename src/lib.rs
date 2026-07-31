@@ -1,5 +1,6 @@
 pub mod command;
 pub mod database;
+pub mod error;
 pub mod executor;
 pub mod lexer;
 pub mod parser;
