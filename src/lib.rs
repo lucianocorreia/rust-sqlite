@@ -4,6 +4,7 @@ pub mod executor;
 pub mod lexer;
 pub mod parser;
 pub mod statement;
+pub mod storage;
 pub mod table;
 pub mod value;
 
